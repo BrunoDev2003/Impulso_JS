@@ -6,27 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList</title>
     <script src="script.js" type="text/javascript"></script>
-    <style type="text/css" href="style.css"></style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <form id="frmToDoList">
+        <ul id="list">
         <p><strong>To-do list</strong></p>
         <input type="text" placeholder="Digite aqui sua tarefa">
-        <input type="button" value="Adicionar">
-        <div>
-            <label for="primeira">lavar a louça</label>
-            <input type="checkbox" id="primeira" name="lavar a louça" value="lavar a louça">
-        </div>
-        
-        <div>
-            <label for="segunda">assitir aula 1</label>
-            <input type="checkbox" id="segunda" name="assistir aula 1" value="assistir aula 1">
-        </div>
-        
-        <div>
-            <label for="terceira">ligar para a escola</label>
-            <input type="checkbox" id="terceira" name="ligar para a escola" value="ligar para a escola">
-        </div>
+        <input type="button" onclick="newElement()" class="Btn" value="Adicionar">
+            <li>ir a academia</li>
+            <li class="checked">pagar contas</li>
+            <li>ir ao restaurante</li>
+            <li>ir ao mercado</li>
+            <li>ler um livro</li>
+            <li>codar</li>
+    </ul>
     </form>
 </body>
 </html>
