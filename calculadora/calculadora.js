@@ -9,27 +9,33 @@ let resultado
 function soma () {
     resultado = n1 + n2;
     alert(resultado);
+    novaOperação();
 }
 
 function subtração () {
     resultado = n1 - n2;
     alert(resultado);
+    novaOperação();
 }
 function multipliação () {
     resultado = n1 * n2;
     alert(resultado);
+    novaOperação();
 }
 function divisãoReal () {
     resultado = n1 / n2;
     alert(resultado);
+    novaOperação();
 }
 function divisãoInteira () {
     resultado = n1 % n2;
     alert(resultado);
+    novaOperação();
 }
 function potenciação () {
     resultado = n1 ** n2;
     alert(resultado);
+    novaOperação();
 }
 
 function novaOperação () {
